@@ -105,7 +105,6 @@ void delete_at_specific_position()
 {
     printf("enter the position to delete:\n");
     scanf("%d",&pos);
-    temp=head;
     while(i<pos-1)
     {
         temp=temp->next;
